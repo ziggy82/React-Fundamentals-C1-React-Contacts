@@ -29,7 +29,7 @@ const App = () => {
   ]);
   return (
     <div>
-      <ListContacts onDeleteContact={removeContact} contacts={contacts} />
+      <ListContacts contacts={contacts} onDeleteContact={removeContact} />
     </div>
   );
 };
